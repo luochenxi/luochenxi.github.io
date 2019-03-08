@@ -7,6 +7,7 @@ cache:
 install:
     - npm install # 安装hexo及插件
     - npm rebuild node-sass --force #该命令是根据构建失败的日志提示添加的
+    - npm install hexo-deployer-git --save
 before_install:
     - export TZ='Asia/Shanghai' # 更改时区
     - npm uninstall hexo-cli -g
