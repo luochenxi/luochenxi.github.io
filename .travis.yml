@@ -12,8 +12,7 @@ before_install:
     - ls
     #- chmod +x ./publish-to-gh-pages.sh  # 为shell文件添加可执行权限
 install:
-    - npm install # 安装hexo及插件
-    - npm start
+    - npm install -g lodash # 安装hexo及插件
     - npm rebuild node-sass --force #该命令是根据构建失败的日志提示添加的
     #- npm install hexo-deployer-git --save
 script:
