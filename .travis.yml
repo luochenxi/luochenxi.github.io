@@ -13,7 +13,7 @@ before_install:
     - npm uninstall hexo-cli -g
     - npm install hexo-cli -g  # 安装hexo环境
     #- chmod +x ./publish-to-gh-pages.sh  # 为shell文件添加可执行权限
-after_script:
+after_install:
     - ./publish-to-gh-pages.sh
 script:
     - hexo clean # 清除
