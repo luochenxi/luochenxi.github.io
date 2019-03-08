@@ -8,11 +8,11 @@ cache:
 before_install:
     - export TZ='Asia/Shanghai' # 更改时区
     - npm install hexo-cli -g  # 安装hexo环境
-    - npm install hexo-generator-searchdb --save
+    #- npm install hexo-generator-searchdb --save
     #- chmod +x ./publish-to-gh-pages.sh  # 为shell文件添加可执行权限
 install:
-    - npm install -g lodash # 安装hexo及插件
-    - npm rebuild node-sass --force #该命令是根据构建失败的日志提示添加的
+    - npm install # 安装hexo及插件
+    #- npm rebuild node-sass --force #该命令是根据构建失败的日志提示添加的
     #- npm install hexo-deployer-git --save
 script:
     - hexo clean # 清除
