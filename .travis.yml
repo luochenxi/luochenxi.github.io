@@ -9,6 +9,8 @@ before_install:
     - npm install hexo-cli -g  # 安装hexo环境
     - npm install hexo-generator-searchdb --save
     - npm uninstall hexo-baidu-url-submit --remove #添加百度提交插件
+    - pwd
+    - ls
     - chmod +x ./publish-to-gh-pages.sh  # 为shell文件添加可执行权限
 install:
     - npm install # 安装hexo及插件
