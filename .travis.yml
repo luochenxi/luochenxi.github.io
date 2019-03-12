@@ -1,6 +1,6 @@
 language: node_js # 设置语言
 node_js: # stable # 设置相应版本
-  - "10.12.0"
+  - "11.11.0"
 cache:
     apt: true
     directories:
@@ -17,7 +17,7 @@ before_install:
 after_script:
     - ./publish-to-gh-pages.sh
 script:
-    - hexo clean # 清除
+    #- hexo clean # 清除
     - hexo g # 生成
 branches:
     only:
@@ -27,6 +27,6 @@ env:
         # Github Pages
         - GH_REF: github.com/luochenxi/luochenxi.github.io.git #设置GH_REF，注意更改成自己的仓库地址
         # Coding Pages https://git.coding.net/hadronw/hadronw.git
-        - CO_REF: git.coding.net/hadronw/hadronw.git
+        #- CO_REF: git.coding.net/hadronw/hadronw.git
          # gitlab https://gitlab.com/hadronw/hadronw.git
          #- GL_REE: gitlab.com/hadronw/hadronw.git
