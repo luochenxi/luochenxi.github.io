@@ -13,7 +13,7 @@ before_install:
       #- npm uninstall hexo-renderer-scss 
     - npm install hexo-generator-searchdb --save
     - npm uninstall hexo-baidu-url-submit --remove #添加百度提交插件
-    - chmod +x ./publish-to-gh-pages.sh  # 为shell文件添加可执行权限
+      #- chmod +x ./publish-to-gh-pages.sh  # 为shell文件添加可执行权限
 after_script:
     - ./publish-to-gh-pages.sh
 script:
