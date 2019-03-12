@@ -17,7 +17,7 @@ before_install:
 after_script:
     - ./publish-to-gh-pages.sh
 script:
-    #- hexo clean # 清除
+    - hexo clean # 清除
     - hexo g # 生成
 branches:
     only:
