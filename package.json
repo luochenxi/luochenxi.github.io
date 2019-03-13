@@ -10,7 +10,8 @@
     "login": "chenxi-xsk0r",
     "repo": "ru594x",
     "mdNameFormat": "title",
-    "postPath": "source/_posts/yuque"
+    "postPath": "source/_posts/yuque",
+    "cachePath": "yuque.json"
   },
   "scripts": {
     "sync": "yuque-hexo sync",

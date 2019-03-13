@@ -25,8 +25,8 @@ after_script:
     - git commit -m "Travis CI Auto Builder at `date +"%Y-%m-%d %H:%M"`"
     - git push --force --quiet "https://${Travis_gh_token}@${GH_REF}" master:master
 script:
-    - yuque-hexo clean
-    - yuque-hexo sync
+    #- yuque-hexo clean
+    #- yuque-hexo sync
     - hexo clean # 清除
     - hexo g # 生成
 branches:
