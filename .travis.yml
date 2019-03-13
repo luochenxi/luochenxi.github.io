@@ -7,6 +7,7 @@ cache:
         - node_modules # 缓存不经常更改的内容
 install:
     - npm install # 安装hexo及插件
+    - git clone https://github.com/theme-next/hexo-theme-next themes/next
 before_install:
     - export TZ='Asia/Shanghai' # 更改时区
     - npm install hexo-cli -g  # 安装hexo环境
@@ -22,10 +23,11 @@ after_script:
       #- git checkout master
       #- cd ../
       #- mv .deploy_git/.git/ ./public/
-    - cd ./public
+    - cd public/
     - git config user.name  "luochenxi"
     - git config user.email "chenxiluo520@qq.com"
     # add commit timestamp
+    - git init
     - git add .
     - git commit -m "Travis CI Auto Builder at `date +"%Y-%m-%d %H:%M"`"
     - git push --force --quiet "https://${Travis_gh_token}@${GH_REF}" master:master
