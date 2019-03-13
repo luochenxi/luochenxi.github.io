@@ -1,6 +1,5 @@
 language: node_js # 设置语言
 node_js:  stable # 设置相应版本
-    #- "11.11.0"
 cache:
     apt: true
     directories:
@@ -16,21 +15,15 @@ before_install:
     - npm uninstall hexo-baidu-url-submit --remove #添加百度提交插件
       #- chmod +x ./publish-to-gh-pages.sh  # 为shell文件添加可执行权限
 after_script:
-    - sh ./publish-to-gh-pages.sh
-      #- set -ev
-      #- git clone https://${GH_REF} .deploy_git
-      #- cd .deploy_git
-      #- git checkout master
-      #- #cd ../
-      #- mv .deploy_git/.git/ ./public/
-      #- cd public/
-      #- git config user.name  "luochenxi"
-      #- git config user.email "chenxiluo520@qq.com"
+    - set -ev
+    - cd public/
+    - git config user.name  "luochenxi"
+    - git config user.email "chenxiluo520@qq.com"
     # add commit timestamp
-    #- git init
-    #- git add .
-    #- git commit -m "Travis CI Auto Builder at `date +"%Y-%m-%d %H:%M"`"
-    #- git push --force --quiet "https://${Travis_gh_token}@${GH_REF}" master:master
+    - git init
+    - git add .
+    - git commit -m "Travis CI Auto Builder at `date +"%Y-%m-%d %H:%M"`"
+    - git push --force --quiet "https://${Travis_gh_token}@${GH_REF}" master:master
 script:
     - hexo clean # 清除
     - hexo g # 生成
@@ -41,7 +34,3 @@ env:
     global:
         # Github Pages
         - GH_REF: github.com/luochenxi/luochenxi.github.io.git #设置GH_REF，注意更改成自己的仓库地址
-        # Coding Pages https://git.coding.net/hadronw/hadronw.git
-        #- CO_REF: git.coding.net/hadronw/hadronw.git
-         # gitlab https://gitlab.com/hadronw/hadronw.git
-         #- GL_REE: gitlab.com/hadronw/hadronw.git
