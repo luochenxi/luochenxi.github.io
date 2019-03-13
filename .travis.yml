@@ -7,6 +7,7 @@ cache:
 install:
     - npm install # 安装hexo及插件
     - git clone https://github.com/theme-next/hexo-theme-next themes/next
+    - npm i -g yuque-hexo
 before_install:
     - export TZ='Asia/Shanghai' # 更改时区
     - npm install hexo-cli -g  # 安装hexo环境
@@ -15,16 +16,17 @@ before_install:
     - npm uninstall hexo-baidu-url-submit --remove #添加百度提交插件
       #- chmod +x ./publish-to-gh-pages.sh  # 为shell文件添加可执行权限
 after_script:
-    - set -ev
-    - cd public/
+    - cd ./public
+    - git init
     - git config user.name  "luochenxi"
     - git config user.email "chenxiluo520@qq.com"
     # add commit timestamp
-    - git init
     - git add .
     - git commit -m "Travis CI Auto Builder at `date +"%Y-%m-%d %H:%M"`"
     - git push --force --quiet "https://${Travis_gh_token}@${GH_REF}" master:master
 script:
+    - yuque-hexo clean
+    - yuque-hexo sync
     - hexo clean # 清除
     - hexo g # 生成
 branches:
