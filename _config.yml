@@ -8,7 +8,7 @@ subtitle:
 description:
 keywords:
 author: luochenxi
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -81,3 +81,7 @@ deploy:
   type: git
   repo: https://github.com/luochenxi/luochenxi.github.io.git
   branch: master
+
+marked:
+  gfm: true
+  breaks: true
