@@ -129,9 +129,9 @@ scheme: Mist
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/wenmobo || GitHub
-  E-Mail: wenmobo2018@gmail.com || envelope
-  简书: https://www.jianshu.com/u/63445e24e8bf || heartbeat
-  掘金: https://juejin.im/user/5a371ae551882512d0607108 || spinner
+  E-Mail: chenxiluoo@gmail.com || envelope
+  简书: https://www.jianshu.com/u/d7ddec024563 || heartbeat
+  掘金: https://juejin.im/user/5b2313e2f265da59567939e0 || spinner
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -536,8 +536,8 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: true
-  app_id: dSEzksBvVcKjRW17O9ks40ew-gzGzoHsz
-  app_key: x5zy0MVMa4Ch9FK2rOxXjM4q
+  app_id: XJMgQDQStv8pN3OG3Ug6GKb3-gzGzoHsz
+  app_key: Tfg4IC0j1joOwnJDWNcujpHO
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
