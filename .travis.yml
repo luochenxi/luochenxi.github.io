@@ -20,8 +20,8 @@ after_script:
     - git init
     - git config user.name  "luochenxi"
     - git config user.email "chenxiluo520@qq.com"
-    # add commit timestamp
     - git add .
+    # add commit timestamp
     - git commit -m "Travis CI Auto Builder at `date +"%Y-%m-%d %H:%M"`"
     - git push --force --quiet "https://${Travis_gh_token}@${GH_REF}" master:master
 script:
