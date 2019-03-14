@@ -6,7 +6,7 @@
       <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
-
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=2709039450&auto=1&height=430"></iframe>
   <aside id="sidebar" class="sidebar">
     {% if theme.sidebar.onmobile %}
       <div id="sidebar-dimmer"></div>
