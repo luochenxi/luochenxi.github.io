@@ -10,16 +10,15 @@
     "login": "chenxi-xsk0r",
     "repo": "ru594x",
     "mdNameFormat": "title",
-    "postPath": "source/_posts/yuque",
-    "cachePath": "yuque.json"
+    "postPath": "source/_posts/yuque"
   },
   "scripts": {
     "clean": "hexo clean",
-    "clean:yuque": "DEBUG=yuque-hexo.* yuque-hexo clean",
+    "clean:yuque": "yuque-hexo clean",
     "deploy": "hexo deploy",
     "publish": "npm run clean && npm run deploy",
     "dev": "hexo s",
-    "sync": "DEBUG=yuque-hexo.* yuque-hexo sync",
+    "sync": "yuque-hexo sync",
     "reset": "npm run clean:yuque && npm run sync"
   },
   "dependencies": {
