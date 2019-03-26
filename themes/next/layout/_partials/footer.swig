@@ -6,9 +6,9 @@
         var int = setInterval(fixCount, 100);
         var busuanziSiteOffset = parseInt({{ theme.busuanzi_site_offset }});
         function fixCount() {
-            if ($("#busuanzi_container_site_pv").css("display") != "none") {
+            if ($("#busuanzi_container_site_uv").css("display") != "none") {
                 clearInterval(int);
-                $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + busuanziSiteOffset);
+                $("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html()) + busuanziSiteOffset);
             }
         }
     });
