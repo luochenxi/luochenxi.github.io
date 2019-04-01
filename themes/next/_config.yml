@@ -152,8 +152,8 @@ links_title: 推荐阅读
 #links_layout: block
 links_layout: inline
 links:
-  Swift 4: https://developer.apple.com/swift/
-  Objective-C: https://developer.apple.com/documentation/objectivec
+  system-design-primer: https://github.com/donnemartin/system-design-primer?utm_source=gold_browser_extension
+  文本相似度: https://segmentfault.com/a/1190000018328273
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
