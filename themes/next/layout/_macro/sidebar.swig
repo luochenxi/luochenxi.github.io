@@ -135,7 +135,7 @@
           {% endif %}
 
           {% include '../_custom/sidebar.swig' %}
-          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="//music.163.com/outchain/player?type=0&id=2709039450&auto=1&height=90"></iframe>
+          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="http://www.ytmp3.cn/down/35123.mp3"></iframe>
         </div>
       </section>
 
