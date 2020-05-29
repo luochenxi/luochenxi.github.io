@@ -11,7 +11,8 @@
     "repo": "ru594x",
     "mdNameFormat": "title",
     "postPath": "source/_posts/yuque",
-    "onlyPublished":true
+    "onlyPublished":true,
+    "onlyPublic": true
   },
   "scripts": {
     "clean": "hexo clean",
