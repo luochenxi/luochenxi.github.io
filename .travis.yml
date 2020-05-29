@@ -18,7 +18,7 @@ before_install:
     - npm uninstall hexo-baidu-url-submit --remove #添加百度提交插件
 after_script:
     - cd ./public
-    - echo "luochenxi.github.io" > CNAME
+    - echo "kirio.vip" > CNAME
     - git init
     - git config user.name  "luochenxi"
     - git config user.email "chenxiluo520@qq.com"
