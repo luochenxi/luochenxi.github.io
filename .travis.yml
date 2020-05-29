@@ -28,7 +28,7 @@ after_script:
     - git push --force --quiet "https://${Travis_gh_token}@${GH_REF}" master:master
 script:
     - yuque-hexo clean
-    - yuque-hexo sync
+    - YUQUE_TOKEN=ck14qMzc9WEER6XomhwqmiTUNy8ruIdcsWTVuxJ8 yuque-hexo sync
     - hexo clean # 清除
     - hexo g # 生成
 branches:
