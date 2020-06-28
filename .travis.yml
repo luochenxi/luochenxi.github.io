@@ -30,7 +30,7 @@ script:
     - yuque-hexo clean
     - YUQUE_TOKEN=ck14qMzc9WEER6XomhwqmiTUNy8ruIdcsWTVuxJ8 yuque-hexo sync
     - hexo clean # 清除
-    - hexo g # 生成
+    - hexo g --debug # 生成
 branches:
     only:
         - dev # 只监测hexo分支
