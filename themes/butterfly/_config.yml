@@ -90,10 +90,10 @@ avatar:
   effect: false
 
 # the banner image of home page
-index_img:
+index_img:https://res.cloudinary.com/bravey/image/upload/v1582873485/wallroom-2880x1620-bg-3cad5d2.jpg
 
 # if the banner of page not setting,it will show the top_img
-default_top_img: https://i.loli.net/2020/05/01/IuWi8QbHvzjlOPw.jpg
+default_top_img: https://res.cloudinary.com/bravey/image/upload/v1587809177/air-atmosphere-blue-blue-sky-314726.jpg
 
 # the banner image of archive page
 archive_img:
@@ -713,6 +713,7 @@ pangu:
 lazyload:
   enable: true
   post: /img/loading.gif
+  script: https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
