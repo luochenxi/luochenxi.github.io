@@ -74,7 +74,7 @@ pagination_dir: page
 plugins: hexo-generate-feed
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: hexo-theme-butterfly
 
 avatar: https://avatar-static.segmentfault.com/174/131/17413141-5beae1046e5b6_huge256
 
