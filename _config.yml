@@ -91,7 +91,12 @@ search:
   format: html
   limit: 10000
 
-
+# auto generate sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml 
+  
 marked:
   gfm: true
   breaks: true
