@@ -121,7 +121,7 @@ index_img: https://res.cloudinary.com/bravey/image/upload/v1582873485/wallroom-2
 
 # if the banner of page not setting,it will show the top_img
 # default_top_img: https://res.cloudinary.com/bravey/image/upload/v1582873485/wallroom-2880x1620-bg-3cad5d2.jpg
-default_top_img: https://res.cloudinary.com/bravey/image/upload/v1587809177/air-atmosphere-blue-blue-sky-314726.jpg
+default_top_img: https://images.unsplash.com/photo-1497551407056-6fde78960ff7?ixlib=rb-1.2.1&q=99&fm=jpg&crop=entropy&cs=tinysrgb&w=2048&fit=max&ixid=eyJhcHBfaWQiOjcwOTV9
 # the default cover of the post
 cover:
   # 是否顯示文章封面
