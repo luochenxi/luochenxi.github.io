@@ -52,10 +52,10 @@ copy:
 #   icon: link
 # ---------------
 social:
-  fa fa-github: https://github.com/BraveY
-  fa fa-envelope: mailto:kaiyongyang@gmail.com 
-  fa fa-rss: https://www.zhihu.com/people/yang-shan-zhi-14
-  fa fa-copyright: https://blog.csdn.net/qq_33620071
+  fa fa-github: https://github.com/luochenxi
+  fa fa-envelope: mailto:chenxiluoo@gmail.com 
+  fa fa-rss: https://www.zhihu.com/people/kirio-59
+  # fa fa-copyright: https://blog.csdn.net/qq_33620071
   # fa fa-rss: /atom.xml
   # GitHub: https://github.com/BraveY || github
   # E-Mail: mailto:kaiyongyang@gmail.com || envelope
@@ -615,7 +615,7 @@ busuanzi:
 # 也可以寫成 年/月/日 時間
 runtimeshow:
   enable: true
-  start_date: 7/23/2016 15:55:00
+  start_date: 7/23/2016 10:30:00
 
 ####   右下角按鈕  ####
 #----------------------------------------------
