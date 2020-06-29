@@ -443,7 +443,8 @@ tag_ui: # 留空或index
 # 圖片格式 background: url(http://xxxxxx.com/xxx.jpg)
 # 顔色 background: '#49B202'
 # 留空 顯示白色
-background: url(https://res.cloudinary.com/bravey/image/upload/v1587809177/air-atmosphere-blue-blue-sky-314726.jpg)
+#background: url(https://res.cloudinary.com/bravey/image/upload/v1587809177/air-atmosphere-blue-blue-sky-314726.jpg)
+background: url(https://images.unsplash.com/photo-1497551407056-6fde78960ff7?ixlib=rb-1.2.1&q=99&fm=jpg&crop=entropy&cs=tinysrgb&w=2048&fit=max&ixid=eyJhcHBfaWQiOjcwOTV9)
 # background: url(https://res.cloudinary.com/bravey/image/upload/v1587809177/astronomy-beautiful-clouds-constellation-355465.jpg)
 # footer是否顯示圖片背景(與top_img一致)
 footer_bg: true
@@ -614,7 +615,7 @@ busuanzi:
 # 也可以寫成 年/月/日 時間
 runtimeshow:
   enable: true
-  start_date: 6/23/2018 15:55:00
+  start_date: 7/23/2016 15:55:00
 
 ####   右下角按鈕  ####
 #----------------------------------------------
@@ -622,9 +623,9 @@ runtimeshow:
 translate:
   enable: true
   # 默認按鈕顯示文字
-  default: 繁
+  default: 简
   #网站默认语言，1: 繁體中文, 2: 简体中文
-  defaultEncoding: 2
+  defaultEncoding: 1
   #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
   translateDelay: 0
   #博客网址
