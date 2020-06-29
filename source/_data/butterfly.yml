@@ -323,7 +323,7 @@ facebook_comments:
 
 #####     Footer Settings    ####
 # ------------------------------------
-since: 2018
+since: 2016
 
 footer_custom_text:
 
@@ -358,7 +358,8 @@ google_adsense:
 ####    站長驗證    ####
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-google_site_verification: hDujO4MQUB7U9ir-4VXM5PW4fDFSq0-7G-LBX-Lh86M
+#google_site_verification: hDujO4MQUB7U9ir-4VXM5PW4fDFSq0-7G-LBX-Lh86M
+google_site_verification: 
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster/
@@ -366,7 +367,8 @@ bing_site_verification:
 
 # Baidu Webmaster tools verification setting
 # See: https://ziyuan.baidu.com/site/
-baidu_site_verification: 8XIUcPkbzm
+#baidu_site_verification: 8XIUcPkbzm
+baidu_site_verification:
 
 # 360 Webmaster tools verification setting
 # see http://zhanzhang.so.com/
@@ -609,6 +611,8 @@ busuanzi:
   site_uv: true
   site_pv: true
   page_pv: true
+busuanzi_site_offset: 100000
+
 
 # 網頁開通時間
 # 格式: 月/日/年 時間
